@@ -63,7 +63,7 @@ table {
 body, h1, h2, h3, p {
   font-family: "monaco", monospace;
   font-size: 1rem;
-  line-height: 1rem;
+  line-height: 1.25rem;
   color: #fff;
   text-align: right;
   word-break: break-word;
@@ -158,6 +158,14 @@ h1 {
 
 .connect {
   float: left;
+}
+
+.label {
+  height: auto;
+  width: 50%;
+  margin: 0 25%;
+  position: absolute;
+  left: 0;
 }
 
 /* responsive */
